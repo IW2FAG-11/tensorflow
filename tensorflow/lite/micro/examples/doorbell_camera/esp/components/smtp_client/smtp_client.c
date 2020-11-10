@@ -484,7 +484,7 @@ static int smtp_client_send_email_internal(uint8_t *email_data, int email_data_s
     if (email_data != NULL) {
 
         len = snprintf((char *) buf, BUF_SIZE,
-                       "Content-Type: image/image/jpg;name=person_image.jpg\n"
+                       "Content-Type: image/jpg;name=person_image.jpg\n"
                        "Content-Transfer-Encoding: base64\n"
                        "Content-Disposition:attachment;filename=\"person_image.jpg\"\r\n\r\n");
         ret = write_ssl_data(&client->ssl, (unsigned char *) buf, len);
