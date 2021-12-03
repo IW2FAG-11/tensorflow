@@ -1,3 +1,11 @@
+### ***Deprecation warning***
+
+The TensorFlow Lite for Microcontrollers (TFLM) project has adapted a newer repository organisation. Accordingly, we have also created our repository to match these guidelines, which is available [here](https://github.com/espressif/tflite-micro-esp-examples).
+
+This current repository that you are looking at, is only available for legacy reasons. We recommend moving to the [newer repository](https://github.com/espressif/tflite-micro-esp-examples) for TensorFlow Lite Micro based projects.
+
+<br>
+
 <div align="center">
   <img src="https://www.tensorflow.org/images/tf_logo_social.png">
 </div>
